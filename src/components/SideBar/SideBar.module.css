@@ -1,0 +1,95 @@
+.sidebarWrap {
+    /*border: 3px dashed grey;*/
+    width: 288px;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.collapsed {
+    width: 72px;
+    background-color: #19A1B7;
+}
+
+.unCollapsed div svg * {
+    fill: #19A1B7;
+}
+
+.NavBtnWrap {
+    width: 282px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+
+    height: 64px;
+    cursor: pointer;
+    font-family: Raleway-Medium, serif;
+}
+
+.selected {
+    transition: all 0.4s;
+    background-color: #EFF8FA;
+    border-left: 7px solid #19A1B7;
+    color: #19A1B7;
+}
+
+.selected div span {
+    font-family: Raleway-Bold, serif;
+}
+
+.selected svg * {
+    fill: #19A1B7;
+}
+
+.unSelected {
+    border-left: 7px solid white;
+}
+
+.selectedSmall {
+    border-left: 7px solid #007287;
+    background-color: #007287;
+}
+
+.selectedSmall svg * {
+    fill: white;
+}
+
+.unSelectedSmall svg * {
+    fill: white;
+}
+
+.unSelectedSmall {
+    border-left: 7px solid #19A1B7;
+    background-color: #19A1B7;
+}
+
+.iconWrap {
+    padding: 0 27px 0 20px;
+}
+
+.arrows {
+    padding: 5px;
+    margin: auto 20px 15px 0;
+    /*background-color: #fff;*/
+    display: flex;
+    justify-content: right;
+}
+
+.arrows svg * {
+    fill: white;
+}
+
+.arrows span {
+    color: #19A1B7;
+    margin-right: 20px;
+    font-family: Raleway-Medium, serif;
+}
+
+.cyanArrows svg * {
+    fill: #19A1B7;
+}
+

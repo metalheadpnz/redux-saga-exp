@@ -1,0 +1,21 @@
+.circleWrap {
+    display: inline-block;
+    position: relative;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EA3D5C;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    bottom: 14px;
+    border: 2px solid white;
+    font-family: Raleway-Bold;
+    font-size: 9px;
+    color: #fff;
+}
